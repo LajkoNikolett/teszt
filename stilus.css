@@ -1,0 +1,29 @@
+/* * {
+    border: 1px solid black;
+} */
+
+#tarto {
+    position: relative;
+    height: min(90vh, 1500px);
+    padding: 0px;
+}
+
+#also {
+    border-radius: 10px;
+    background-color: rgb(77, 230, 250);
+    min-height: 100%;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+#felso {
+    border-radius: 10px;
+    background-color: rgb(163, 255, 163);
+    min-height: 100%;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
