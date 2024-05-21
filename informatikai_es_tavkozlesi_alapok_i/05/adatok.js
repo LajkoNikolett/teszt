@@ -16,6 +16,59 @@ let adatok = [
             szoveg: 'A számítógép.',
         },
     },
+    {
+        tipus: 'radiobutton',
+        kepFel: './images/kep_01.jpg',
+        kepLe: './images/kep_03.jpg',
+        kerdes: 'Melyik leírás határozza meg pontosan a MAC címet?',
+        valaszok: [
+            '48 bites, hexadecimálisan kódolt, az első 24 bit a gyártó, a második 24 bit az eszköz azonosítására szolgál',
+            '48 bites, binárisan kódolt, az eszköz azonosítására szolgál',
+            '48 bites, binárisan kódolt, az első 24 bit a gyártó, a második 24 bit az eszköz azonosítására szolgál',
+            '24 bites, hexadecimálisan kódolt, az első 12 bit a gyártó, a második 12 bit az eszköz azonosítására szolgál',
+        ],
+        joValaszok: [true, false, false, false],
+        magyarazat: {
+            href: 'https://www.poli.hu/netrekesz/anyagok/szamitogepes_alapismeretek.pdf',
+            szoveg: 'A számítógép.',
+        },
+    },
+    {
+        tipus: 'radiobutton',
+        kepFel: './images/kep_01.jpg',
+        kepLe: './images/kep_03.jpg',
+        kerdes: 'A tízes számrendszerbeli alakjában felírt maszkok közül melyik felel meg a prefixes alakjában /24-es alhálózati maszknak?',
+        valaszok: [
+            '255.255.255.128',
+            '255.255.255.0',
+            '255.255.0.0',
+            '255.255.255.252',
+        ],
+        joValaszok: [false, true, false, false],
+        magyarazat: {
+            href: 'https://www.poli.hu/netrekesz/anyagok/szamitogepes_alapismeretek.pdf',
+            szoveg: 'A számítógép.',
+        },
+    },
+    {
+        tipus: 'radiobutton',
+        kepFel: './images/kep_01.jpg',
+        kepLe: './images/kep_03.jpg',
+        kerdes: 'Időtakarékosság céljából egy részben begépelt IOS parancsot milyen billentyűvel vagy billentyűkombinációval egészíthetünk ki?',
+        valaszok: [
+            'Tab',
+            'Ctrl-P',
+            'Ctrl-N',
+            'Felfelé nyíl',
+            'Jobbra nyíl',
+            'Lefelé nyíl',
+        ],
+        joValaszok: [true, false, false, false, false, false],
+        magyarazat: {
+            href: 'https://www.poli.hu/netrekesz/anyagok/szamitogepes_alapismeretek.pdf',
+            szoveg: 'A számítógép.',
+        },
+    },
 ];
 
 export default adatok;

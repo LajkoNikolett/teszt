@@ -47,6 +47,24 @@ let adatok = [
             szoveg: 'A számítógép.',
         },
     },
+    {
+        tipus: 'checkbox',
+        kepFel: './images/kep_01.jpg',
+        kepLe: './images/kep_03.jpg',
+        kerdes: 'Melyik nem verziókezelő rendszer? (2 jó válasz)',
+        valaszok: [
+            'Local Version Control System',
+            'Global Version Control System',
+            'Centralized Version Control System',
+            'Neutral Version Control System',
+            'Distributed Version Control System',
+        ],
+        joValaszok: [false, true, false, true, false],
+        magyarazat: {
+            href: 'https://www.poli.hu/netrekesz/anyagok/szamitogepes_alapismeretek.pdf',
+            szoveg: 'A számítógép.',
+        },
+    },
 ];
 
 export default adatok;
